@@ -10,7 +10,12 @@
             <div class="col-lg-12">
               <div class="p-5">
                 <div class="text-center">
-                 <center><img src="<?= base_url('/assets/mengadu.jpeg'); ?>" width="450" height="200" alt="Logo"></center>
+                  <br>
+                  <br>
+                  <br>
+                  <br>
+                <center><h2 class="text-white text-blod">OFFICER</h2></center>
+                 <center><h2 class="text-white font-blod">Public complaints</h2></center>
                <p>
                 </div>
 

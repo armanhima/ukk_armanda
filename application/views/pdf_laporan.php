@@ -63,7 +63,7 @@
             <td><?= $l['isi_laporan'] ?></td>
             <td><?= $l['tgl_pengaduan'] ?></td>
             <td>
-              <?
+              <?php
               if ($l['status'] == '0') :
                 echo '<span class="badge badge-secondary">Sedang di verifikasi</span>';
               elseif ($l['status'] == 'proses') :

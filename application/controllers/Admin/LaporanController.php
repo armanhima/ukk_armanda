@@ -8,7 +8,7 @@ class LaporanController extends CI_Controller {
 		parent::__construct();
 		//Load Dependencies
 		is_logged_in();
-		if ($this->session->userdata('level') != 'admin') :
+		if ($this->session->userdata('level') != 'admin' OR $this->session->userdata('level') == 'petugas') :
 			redirect('Auth/BlockedController');
 		endif;
 		$this->load->model('Pengaduan_m');
@@ -35,7 +35,7 @@ class LaporanController extends CI_Controller {
 
     $this->load->library('pdf');
 
-    $this->pdf->setPaper('A4', 'potrait'); // opsional | default A4
+    $this->pdf->setPaper('A3', 'potrait'); // opsional | default A4
     $this->pdf->filename = "laporan-pengaduan.pdf"; // opsional | default is laporan.pdf
     $this->pdf->load_view('pdf_laporan', $data);
 	}

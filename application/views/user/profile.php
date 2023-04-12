@@ -13,7 +13,7 @@
 	<div class="card mb-3 col-lg-8">
 		<div class="row no-gutters">
 			<div class="col-md-4">
-				<img src="<?= base_url('assets/profile/'.$user['foto_profile']) ?>" class="card-img" alt="img user">
+				<img src="<?= base_url('assets/profile/Pengaduan.png') ?>" class="card-img" alt="img user">
 			</div>
 			<div class="col-md-8">
 				<div class="card-body">

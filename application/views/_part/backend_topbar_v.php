@@ -24,7 +24,7 @@
       <li class="nav-item dropdown no-arrow">
         <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <span class="mr-2 d-none d-lg-inline text-white-600 small"><?= $this->session->userdata('username'); ?></span>
-          <img class="img-profile rounded-circle" src="<?= base_url() ?>assets/profile/user.png">
+          <img class="img-profile rounded-circle" src="<?= base_url() ?>assets/profile/Pengaduan.png">
         </a>
         <!-- Dropdown - User Information -->
         <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
@@ -47,8 +47,8 @@
   <style>
   .warna {
   background-color: #000;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #34675C), to(#7DA3A1));
-  background-image: linear-gradient(180deg, #1995AD 10%, #7DA3A1 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #1995AD), to(#1995AD));
+  background-image: linear-gradient(180deg, #1995AD 10%, #1995AD 100%);
   background-size: cover;
   }
 </style>

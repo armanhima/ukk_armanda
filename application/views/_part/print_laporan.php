@@ -66,9 +66,6 @@
 
 <style>
       .warna {
-  background-color: #000;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #34675C), to(#7DA3A1));
-  background-image: linear-gradient(180deg, #1995AD 10%, #7DA3A1 100%);
-  background-size: cover;
+  background-color: ##1995AD;
   }
 </style>
